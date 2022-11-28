@@ -28,3 +28,6 @@ jobs:
 
       - name: test
         run: ./gradlew test
+
+      - name: show success
+        run: echo "SUCCESS"
